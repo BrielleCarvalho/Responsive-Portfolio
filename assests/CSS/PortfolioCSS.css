@@ -1,0 +1,138 @@
+/* CSS for Portfolio.html page */
+html, body{
+    height: 100%;
+    margin: 0;
+    background-image: url(../../assests/images/folk-pattern-black.png);
+    cursor: default;
+}
+img{
+    width: 215px;
+    height: 175px;
+    padding: 10px 25px;
+}
+header{
+    background: #ffffff;
+    border: #cccccc;
+    height: 125px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    
+}
+h1{
+    background: #6699ff;
+    color: white;
+    width: 300px;
+    height: 50px;
+    padding: 25px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    position: absolute;
+    left: 125px;
+    bottom: 0px;
+    margin: 0px;
+    text-align: center;
+
+}
+.menu{    
+    position: absolute;
+    bottom: 50px;
+    right: 125px;
+}
+/* unvisited link */
+a:link {
+    color: black;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #666666;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #003399;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: default;
+  }
+  
+h2{
+    color: #6699ff;
+    padding: 0px 25px 0px 25px;
+    margin: 0px 25px 0px 25px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    border-bottom: solid;
+    border-bottom-color: #666666;
+    
+}
+.homepage{
+    height: auto;
+    width: 960px;
+    height: 800px;
+    background-color: white;
+    margin: 25px auto 10px auto;
+}
+.container {
+    position: relative;
+}
+.left{
+    float: left;
+    width: 40%;
+}
+.projects{
+    position: absolute;
+    bottom: 20px;
+    left: 25px;
+    right: 144px;
+    background-color: #6699ff;
+    text-align: center;
+    padding: 10px 40px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 14px;
+}
+.hover-outline:hover {
+    outline: 3px solid white;
+    outline-offset: 0px;
+}
+.wrapper {
+    min-height: 100%;
+  
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -50px;
+  }
+  .footer {
+    height: 50px;
+    margin-top: 50px;
+    padding: 0px;
+    border-top: solid;
+    border-top-color: #6699ff;
+    text-align: center;
+    background-color: #666666;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    }
+    @media screen and (max-width: 640px) {
+        header{
+            position: static;
+        }
+     
+    }
+
+    @media screen and (max-width: 768px) {
+        body {
+          background-color: olive;
+        }
+      }
+
+    @media screen and (max-width: 980px) {
+        body {
+          background-color: olive;
+        }
+      }
